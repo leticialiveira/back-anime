@@ -1,0 +1,46 @@
+// app.controller.ts
+
+// import { Controller, Get, Body } from '@nestjs/common';
+// import { PrismaService } from './database/prisma.service';
+// // import { randomUUID } from 'node:crypto';
+// // import { CreateTeamMemberBody } from './dtos/create-team-member-body';
+
+// @Controller('app')
+// // @Controller('app') => prefixo de rota
+// // precisa do controler pois vai trabalhar com algo que recebe requisições
+// export class AppController {
+//   // constructor(private readonly appService: AppService) {}
+//   constructor(
+//     private prisma: PrismaService
+//     ){}
+// //cria uma construtor onde recebe uma dependecia chamada prisma, o tipo dela é PrismaService
+//   @Get('hello')
+//   // coloca a rota que quer colocar as informações. Exemplo= 'hello', só vai conseguir acessar os dados se colocar /hello na url.
+//   async getHello() {
+//     // async getHello(@Body() body: CreateTeamMemberBody) {
+//       // const { name, function: memberFunction } = body
+//     // getHello(): string {
+//     // return this.appService.getHello();
+//     // return 'Ola mundo'
+
+//     const member = await this.prisma.rocketTeamMember.create({
+//       data: {
+//         // id: randomUUID(),
+//           id: 'capitão',
+//           // pra não ter problema de duplicidade
+//           name: 'Guilherme Capitão', 
+//           // name,
+//           function: 'Alcançar coisas altas',
+//           // function: memberFunction,
+
+//       }
+//     })
+//     //criação de um novo member
+//     return{
+//       member,
+//     } 
+//   }
+//   //rota da aplicação
+// }
+
+// // cada metodo da classe controler vira uma rota

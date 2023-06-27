@@ -1,0 +1,703 @@
+{
+  "animes": [
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
+      "name": "Attack on Titan",
+      "category": "TV",
+      "genero": "Ação, Drama, Fantasia",
+      "description": "Eren Yeager jura eliminar todos os Titãs após testemunhar a morte de sua mãe. Agora, ele se junta à tropa de exploração para proteger a humanidade dos Titãs."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/6/73245.jpg",
+      "name": "One Piece",
+      "category": "TV",
+      "genero": "Aventura, Ação, Comédia",
+      "description": "Monkey D. Luffy e sua tripulação de piratas embarcam em uma busca épica em busca do tesouro supremo, conhecido como One Piece, e para se tornar o Rei dos Piratas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1286/110031.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba",
+      "category": "TV",
+      "genero": "Ação, Sobrenatural, Histórico",
+      "description": "Tanjiro Kamado se torna um caçador de demônios para vingar sua família e encontrar uma cura para sua irmã, que se transformou em um demônio."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/13/17405.jpg",
+      "name": "Naruto",
+      "category": "TV",
+      "genero": "Ação, Aventura, Comédia",
+      "description": "Naruto Uzumaki, um jovem ninja, busca se tornar o Hokage, o líder de sua vila, e proteger a vila e seus amigos de ameaças poderosas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/3/22229.jpg",
+      "name": "My Hero Academia",
+      "category": "TV",
+      "genero": "Ação, Comédia, Superpoderes",
+      "description": "Izuku Midoriya herda um poder especial e entra na U.A. High School, uma escola de heróis de elite, onde ele treina para se tornar o maior herói do mundo."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/4/9391.jpg",
+      "name": "Death Note",
+      "category": "TV",
+      "genero": "Mistério, Psicológico, Sobrenatural",
+      "description": "Light Yagami encontra um caderno sobrenatural que lhe dá o poder de matar qualquer pessoa, e ele decide usá-lo para livrar o mundo do mal, tornando-se um vigilante conhecido como Kira."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/20371.jpg",
+      "name": "Sword Art Online",
+      "category": "TV",
+      "genero": "Ação, Aventura, Fantasia",
+      "description": "Kirito e outros jogadores ficam presos em um jogo de realidade virtual, Sword Art Online. Para escapar, eles devem atravessar os níveis perigosos do jogo e enfrentar seus desafios mortais."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/12/78745.jpg",
+      "name": "Fairy Tail",
+      "category": "TV",
+      "genero": "Ação, Aventura, Comédia",
+      "description": "Lucy Heartfilia se junta à guilda de magos Fairy Tail e embarca em missões emocionantes com Natsu Dragneel e seus amigos, enfrentando perigos e descobrindo segredos sobre seu passado."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/87075.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc",
+      "category": "TV",
+      "genero": "Ação, Sobrenatural, Histórico",
+      "description": "Após os eventos do Trem Infinito, Tanjiro e seus companheiros se envolvem em uma nova missão na cidade do entretenimento, enfrentando demônios perigosos e mistérios intrigantes."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/8/19907.jpg",
+      "name": "Steins;Gate",
+      "category": "TV",
+      "genero": "Mistério, Sci-Fi, Thriller",
+      "description": "Rintarou Okabe descobre a habilidade de enviar mensagens para o passado e começa a experimentar viagens no tempo, desencadeando uma série de eventos que podem mudar o curso da história."
+    },
+
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1817/97690.jpg",
+      "name": "Jujutsu Kaisen",
+      "category": "TV",
+      "genero": "Ação, Demônios, Sobrenatural",
+      "description": "Yuji Itadori se envolve em um mundo oculto de feitiçaria quando ingere um dedo amaldiçoado, tornando-se hospedeiro de uma criatura poderosa. Agora, ele luta contra maldições para proteger as pessoas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/20371.jpg",
+      "name": "Sword Art Online",
+      "category": "TV",
+      "genero": "Ação, Aventura, Fantasia",
+      "description": "Kirito e outros jogadores ficam presos em um jogo de realidade virtual, Sword Art Online. Para escapar, eles devem atravessar os níveis perigosos do jogo e enfrentar seus desafios mortais."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/12/78745.jpg",
+      "name": "Fairy Tail",
+      "category": "TV",
+      "genero": "Ação, Aventura, Comédia",
+      "description": "Lucy Heartfilia se junta à guilda de magos Fairy Tail e embarca em missões emocionantes com Natsu Dragneel e seus amigos, enfrentando perigos e descobrindo segredos sobre seu passado."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/87075.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc",
+      "category": "TV",
+      "genero": "Ação, Sobrenatural, Histórico",
+      "description": "Após os eventos do Trem Infinito, Tanjiro e seus companheiros se envolvem em uma nova missão na cidade do entretenimento, enfrentando demônios perigosos e mistérios intrigantes."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/8/19907.jpg",
+      "name": "Steins;Gate",
+      "category": "TV",
+      "genero": "Mistério, Sci-Fi, Thriller",
+      "description": "Rintarou Okabe descobre a habilidade de enviar mensagens para o passado e começa a experimentar viagens no tempo, desencadeando uma série de eventos que podem mudar o curso da história."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/5/87048.jpg",
+      "name": "Vinland Saga",
+      "category": "TV",
+      "genero": "Ação, Drama, Histórico",
+      "description": "Thorfinn, filho de um guerreiro viking, busca vingança contra o assassino de seu pai, enquanto se envolve em um caçador de tesouros, seguindo os passos de seu pai ausente, e encontra amigos e desafios ao longo do caminho."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/9/47389.jpg",
+      "name": "Haikyuu!!",
+      "category": "TV",
+      "genero": "Esporte, Comédia, Drama",
+      "description": "Shoyo Hinata se junta ao time de vôlei da escola secundária Karasuno, determinado a superar sua baixa estatura e se tornar um jogador excepcional."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1817/97690.jpg",
+      "name": "Jujutsu Kaisen",
+      "category": "TV",
+      "genero": "Ação, Demônios, Sobrenatural",
+      "description": "Yuji Itadori se envolve em um mundo oculto de feitiçaria quando ingere um dedo amaldiçoado, tornando-se hospedeiro de uma criatura poderosa. Agora, ele luta contra maldições para proteger as pessoas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/20371.jpg",
+      "name": "Sword Art Online",
+      "category": "TV",
+      "genero": "Ação, Aventura, Fantasia",
+      "description": "Kirito e outros jogadores ficam presos em um jogo de realidade virtual, Sword Art Online. Para escapar, eles devem atravessar os níveis perigosos do jogo e enfrentar seus desafios mortais."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/12/78745.jpg",
+      "name": "Fairy Tail",
+      "category": "TV",
+      "genero": "Ação, Aventura, Comédia",
+      "description": "Lucy Heartfilia se junta à guilda de magos Fairy Tail e embarca em missões emocionantes com Natsu Dragneel e seus amigos, enfrentando perigos e descobrindo segredos sobre seu passado."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/87075.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc",
+      "category": "TV",
+      "genero": "Ação, Sobrenatural, Histórico",
+      "description": "Após os eventos do Trem Infinito, Tanjiro e seus companheiros se envolvem em uma nova missão na cidade do entretenimento, enfrentando demônios perigosos e mistérios intrigantes."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/8/19907.jpg",
+      "name": "Steins;Gate",
+      "category": "TV",
+      "genero": "Mistério, Sci-Fi, Thriller",
+      "description": "Rintarou Okabe descobre a habilidade de enviar mensagens para o passado e começa a experimentar viagens no tempo, desencadeando uma série de eventos que podem mudar o curso da história."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1817/97690.jpg",
+      "name": "Jujutsu Kaisen",
+      "category": "TV",
+      "genero": "Ação, Demônios, Sobrenatural",
+      "description": "Yuji Itadori se envolve em um mundo oculto de feitiçaria quando ingere um dedo amaldiçoado, tornando-se hospedeiro de uma criatura poderosa. Agora, ele luta contra maldições para proteger as pessoas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/20371.jpg",
+      "name": "Sword Art Online",
+      "category": "TV",
+      "genero": "Ação, Aventura, Fantasia",
+      "description": "Kirito e outros jogadores ficam presos em um jogo de realidade virtual, Sword Art Online. Para escapar, eles devem atravessar os níveis perigosos do jogo e enfrentar seus desafios mortais."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/12/78745.jpg",
+      "name": "Fairy Tail",
+      "category": "TV",
+      "genero": "Ação, Aventura, Comédia",
+      "description": "Lucy Heartfilia se junta à guilda de magos Fairy Tail e embarca em missões emocionantes com Natsu Dragneel e seus amigos, enfrentando perigos e descobrindo segredos sobre seu passado."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/87075.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc",
+      "category": "TV",
+      "genero": "Ação, Sobrenatural, Histórico",
+      "description": "Após os eventos do Trem Infinito, Tanjiro e seus companheiros se envolvem em uma nova missão na cidade do entretenimento, enfrentando demônios perigosos e mistérios intrigantes."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/8/19907.jpg",
+      "name": "Steins;Gate",
+      "category": "TV",
+      "genero": "Mistério, Sci-Fi, Thriller",
+      "description": "Rintarou Okabe descobre a habilidade de enviar mensagens para o passado e começa a experimentar viagens no tempo, desencadeando uma série de eventos que podem mudar o curso da história."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/5/87048.jpg",
+      "name": "Vinland Saga",
+      "category": "TV",
+      "genero": "Ação, Drama, Histórico",
+      "description": "Thorfinn, filho de um guerreiro viking, busca vingança contra o assassino de seu pai, enquanto se envolve em eio-ghoul após um encontro traumático e luta para encontrar seu lugar entre os humanos e os ghouls."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/9/47389.jpg",
+      "name": "Haikyuu!!",
+      "category": "TV",
+      "genero": "Esporte, Comédia, Drama",
+      "description": "Shoyo Hinata se junta ao time de vôlei da escola secundária Karasuno, determinado a superar sua baixa estatura e se tornar um jogador excepcional."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1817/97690.jpg",
+      "name": "Jujutsu Kaisen",
+      "category": "TV",
+      "genero": "Ação, Demônios, Sobrenatural",
+      "description": "Yuji Itadori se envolve em um mundo oculto de feitiçaria quando ingere um dedo amaldiçoado, tornando-se hospedeiro de uma criatura poderosa. Agora, ele luta contra maldições para proteger as pessoas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/20371.jpg",
+      "name": "Sword Art Online",
+      "category": "TV",
+      "genero": "Ação, Aventura, Fantasia",
+      "description": "Kirito e outros jogadores ficam presos em um jogo de realidade virtual, Sword Art Online. Para escapar, eles devem atravessar os níveis perigosos do jogo e enfrentar seus desafios mortais."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/12/78745.jpg",
+      "name": "Fairy Tail",
+      "category": "TV",
+      "genero": "Ação, Aventura, Comédia",
+      "description": "Lucy Heartfilia se junta à guilda de magos Fairy Tail e embarca em missões emocionantes com Natsu Dragneel e seus amigos, enfrentando perigos e descobrindo segredos sobre seu passado."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/87075.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc",
+      "category": "TV",
+      "genero": "Ação, Sobrenatural, Histórico",
+      "description": "Após os eventos do Trem Infinito, Tanjiro e seus companheiros se envolvem em uma nova missão na cidade do entretenimento, enfrentando demônios perigosos e mistérios intrigantes."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/8/19907.jpg",
+      "name": "Steins;Gate",
+      "category": "TV",
+      "genero": "Mistério, Sci-Fi, Thriller",
+      "description": "Rintarou Okabe descobre a habilidade de enviar mensagens para o passado e começa a experimentar viagens no tempo, desencadeando uma série de eventos que podem mudar o curso da história."
+    },
+
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1817/97690.jpg",
+      "name": "Jujutsu Kaisen",
+      "category": "TV",
+      "genero": "Ação, Demônios, Sobrenatural",
+      "description": "Yuji Itadori se envolve em um mundo oculto de feitiçaria quando ingere um dedo amaldiçoado, tornando-se hospedeiro de uma criatura poderosa. Agora, ele luta contra maldições para proteger as pessoas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/20371.jpg",
+      "name": "Sword Art Online",
+      "category": "TV",
+      "genero": "Ação, Aventura, Fantasia",
+      "description": "Kirito e outros jogadores ficam presos em um jogo de realidade virtual, Sword Art Online. Para escapar, eles devem atravessar os níveis perigosos do jogo e enfrentar seus desafios mortais."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/12/78745.jpg",
+      "name": "Fairy Tail",
+      "category": "TV",
+      "genero": "Ação, Aventura, Comédia",
+      "description": "Lucy Heartfilia se junta à guilda de magos Fairy Tail e embarca em missões emocionantes com Natsu Dragneel e seus amigos, enfrentando perigos e descobrindo segredos sobre seu passado."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/87075.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc",
+      "category": "TV",
+      "genero": "Ação, Sobrenatural, Histórico",
+      "description": "Após os eventos do Trem Infinito, Tanjiro e seus companheiros se envolvem em uma nova missão na cidade do entretenimento, enfrentando demônios perigosos e mistérios intrigantes."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/8/19907.jpg",
+      "name": "Steins;Gate",
+      "category": "TV",
+      "genero": "Mistério, Sci-Fi, Thriller",
+      "description": "Rintarou Okabe descobre a habilidade de enviar mensagens para o passado e começa a experimentar viagens no tempo, desencadeando uma série de eventos que podem mudar o curso da história."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/5/87048.jpg",
+      "name": "Vinland Saga",
+      "category": "TV",
+      "genero": "Ação, Drama, Histórico",
+      "description": "Thorfinn, filho de um guerreiro viking, busca vingança contra o assassino de seu pai, enquanto se envolve em a proteger a Terra e buscar as Esferas do Dragão, capazes de realizar desejos quando reunidas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/9/47389.jpg",
+      "name": "Haikyuu!!",
+      "category": "TV",
+      "genero": "Esporte, Comédia, Drama",
+      "description": "Shoyo Hinata se junta ao time de vôlei da escola secundária Karasuno, determinado a superar sua baixa estatura e se tornar um jogador excepcional."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1817/97690.jpg",
+      "name": "Jujutsu Kaisen",
+      "category": "TV",
+      "genero": "Ação, Demônios, Sobrenatural",
+      "description": "Yuji Itadori se envolve em um mundo oculto de feitiçaria quando ingere um dedo amaldiçoado, tornando-se hospedeiro de uma criatura poderosa. Agora, ele luta contra maldições para proteger as pessoas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/20371.jpg",
+      "name": "Sword Art Online",
+      "category": "TV",
+      "genero": "Ação, Aventura, Fantasia",
+      "description": "Kirito e outros jogadores ficam presos em um jogo de realidade virtual, Sword Art Online. Para escapar, eles devem atravessar os níveis perigosos do jogo e enfrentar seus desafios mortais."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/12/78745.jpg",
+      "name": "Fairy Tail",
+      "category": "TV",
+      "genero": "Ação, Aventura, Comédia",
+      "description": "Lucy Heartfilia se junta à guilda de magos Fairy Tail e embarca em missões emocionantes com Natsu Dragneel e seus amigos, enfrentando perigos e descobrindo segredos sobre seu passado."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/87075.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc",
+      "category": "TV",
+      "genero": "Ação, Sobrenatural, Histórico",
+      "description": "Após os eventos do Trem Infinito, Tanjiro e seus companheiros se envolvem em uma nova missão na cidade do entretenimento, enfrentando demônios perigosos e mistérios intrigantes."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/8/19907.jpg",
+      "name": "Steins;Gate",
+      "category": "TV",
+      "genero": "Mistério, Sci-Fi, Thriller",
+      "description": "Rintarou Okabe descobre a habilidade de enviar mensagens para o passado e começa a experimentar viagens no tempo, desencadeando uma série de eventos que podem mudar o curso da história."
+    },
+
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1817/97690.jpg",
+      "name": "Jujutsu Kaisen",
+      "category": "TV",
+      "genero": "Ação, Demônios, Sobrenatural",
+      "description": "Yuji Itadori se envolve em um mundo oculto de feitiçaria quando ingere um dedo amaldiçoado, tornando-se hospedeiro de uma criatura poderosa. Agora, ele luta contra maldições para proteger as pessoas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/20371.jpg",
+      "name": "Sword Art Online",
+      "category": "TV",
+      "genero": "Ação, Aventura, Fantasia",
+      "description": "Kirito e outros jogadores ficam presos em um jogo de realidade virtual, Sword Art Online. Para escapar, eles devem atravessar os níveis perigosos do jogo e enfrentar seus desafios mortais."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/12/78745.jpg",
+      "name": "Fairy Tail",
+      "category": "TV",
+      "genero": "Ação, Aventura, Comédia",
+      "description": "Lucy Heartfilia se junta à guilda de magos Fairy Tail e embarca em missões emocionantes com Natsu Dragneel e seus amigos, enfrentando perigos e descobrindo segredos sobre seu passado."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/87075.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc",
+      "category": "TV",
+      "genero": "Ação, Sobrenatural, Histórico",
+      "description": "Após os eventos do Trem Infinito, Tanjiro e seus companheiros se envolvem em uma nova missão na cidade do entretenimento, enfrentando demônios perigosos e mistérios intrigantes."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/8/19907.jpg",
+      "name": "Steins;Gate",
+      "category": "TV",
+      "genero": "Mistério, Sci-Fi, Thriller",
+      "description": "Rintarou Okabe descobre a habilidade de enviar mensagens para o passado e começa a experimentar viagens no tempo, desencadeando uma série de eventos que podem mudar o curso da história."
+    },
+
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1817/97690.jpg",
+      "name": "Jujutsu Kaisen",
+      "category": "TV",
+      "genero": "Ação, Demônios, Sobrenatural",
+      "description": "Yuji Itadori se envolve em um mundo oculto de feitiçaria quando ingere um dedo amaldiçoado, tornando-se hospedeiro de uma criatura poderosa. Agora, ele luta contra maldições para proteger as pessoas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/20371.jpg",
+      "name": "Sword Art Online",
+      "category": "TV",
+      "genero": "Ação, Aventura, Fantasia",
+      "description": "Kirito e outros jogadores ficam presos em um jogo de realidade virtual, Sword Art Online. Para escapar, eles devem atravessar os níveis perigosos do jogo e enfrentar seus desafios mortais."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/12/78745.jpg",
+      "name": "Fairy Tail",
+      "category": "TV",
+      "genero": "Ação, Aventura, Comédia",
+      "description": "Lucy Heartfilia se junta à guilda de magos Fairy Tail e embarca em missões emocionantes com Natsu Dragneel e seus amigos, enfrentando perigos e descobrindo segredos sobre seu passado."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/87075.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc",
+      "category": "TV",
+      "genero": "Ação, Sobrenatural, Histórico",
+      "description": "Após os eventos do Trem Infinito, Tanjiro e seus companheiros se envolvem em uma nova missão na cidade do entretenimento, enfrentando demônios perigosos e mistérios intrigantes."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/8/19907.jpg",
+      "name": "Steins;Gate",
+      "category": "TV",
+      "genero": "Mistério, Sci-Fi, Thriller",
+      "description": "Rintarou Okabe descobre a habilidade de enviar mensagens para o passado e começa a experimentar viagens no tempo, desencadeando uma série de eventos que podem mudar o curso da história."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/5/87048.jpg",
+      "name": "Vinland Saga",
+      "category": "TV",
+      "genero": "Ação, Drama, Histórico",
+      "description": "Thorfinn, filho de um guerreiro viking, busca vingança contra o assassino de seu pai, enquanto se envolve em ros embarcam em uma missão para investigar o misterioso Trem Infinito e enfrentar um novo demônio poderoso."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/9/47389.jpg",
+      "name": "Haikyuu!!",
+      "category": "TV",
+      "genero": "Esporte, Comédia, Drama",
+      "description": "Shoyo Hinata se junta ao time de vôlei da escola secundária Karasuno, determinado a superar sua baixa estatura e se tornar um jogador excepcional."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1817/97690.jpg",
+      "name": "Jujutsu Kaisen",
+      "category": "TV",
+      "genero": "Ação, Demônios, Sobrenatural",
+      "description": "Yuji Itadori se envolve em um mundo oculto de feitiçaria quando ingere um dedo amaldiçoado, tornando-se hospedeiro de uma criatura poderosa. Agora, ele luta contra maldições para proteger as pessoas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/20371.jpg",
+      "name": "Sword Art Online",
+      "category": "TV",
+      "genero": "Ação, Aventura, Fantasia",
+      "description": "Kirito e outros jogadores ficam presos em um jogo de realidade virtual, Sword Art Online. Para escapar, eles devem atravessar os níveis perigosos do jogo e enfrentar seus desafios mortais."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/12/78745.jpg",
+      "name": "Fairy Tail",
+      "category": "TV",
+      "genero": "Ação, Aventura, Comédia",
+      "description": "Lucy Heartfilia se junta à guilda de magos Fairy Tail e embarca em missões emocionantes com Natsu Dragneel e seus amigos, enfrentando perigos e descobrindo segredos sobre seu passado."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/87075.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc",
+      "category": "TV",
+      "genero": "Ação, Sobrenatural, Histórico",
+      "description": "Após os eventos do Trem Infinito, Tanjiro e seus companheiros se envolvem em uma nova missão na cidade do entretenimento, enfrentando demônios perigosos e mistérios intrigantes."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/8/19907.jpg",
+      "name": "Steins;Gate",
+      "category": "TV",
+      "genero": "Mistério, Sci-Fi, Thriller",
+      "description": "Rintarou Okabe descobre a habilidade de enviar mensagens para o passado e começa a experimentar viagens no tempo, desencadeando uma série de eventos que podem mudar o curso da história."
+    },
+
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1817/97690.jpg",
+      "name": "Jujutsu Kaisen",
+      "category": "TV",
+      "genero": "Ação, Demônios, Sobrenatural",
+      "description": "Yuji Itadori se envolve em um mundo oculto de feitiçaria quando ingere um dedo amaldiçoado, tornando-se hospedeiro de uma criatura poderosa. Agora, ele luta contra maldições para proteger as pessoas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/20371.jpg",
+      "name": "Sword Art Online",
+      "category": "TV",
+      "genero": "Ação, Aventura, Fantasia",
+      "description": "Kirito e outros jogadores ficam presos em um jogo de realidade virtual, Sword Art Online. Para escapar, eles devem atravessar os níveis perigosos do jogo e enfrentar seus desafios mortais."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/12/78745.jpg",
+      "name": "Fairy Tail",
+      "category": "TV",
+      "genero": "Ação, Aventura, Comédia",
+      "description": "Lucy Heartfilia se junta à guilda de magos Fairy Tail e embarca em missões emocionantes com Natsu Dragneel e seus amigos, enfrentando perigos e descobrindo segredos sobre seu passado."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/87075.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc",
+      "category": "TV",
+      "genero": "Ação, Sobrenatural, Histórico",
+      "description": "Após os eventos do Trem Infinito, Tanjiro e seus companheiros se envolvem em uma nova missão na cidade do entretenimento, enfrentando demônios perigosos e mistérios intrigantes."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/8/19907.jpg",
+      "name": "Steins;Gate",
+      "category": "TV",
+      "genero": "Mistério, Sci-Fi, Thriller",
+      "description": "Rintarou Okabe descobre a habilidade de enviar mensagens para o passado e começa a experimentar viagens no tempo, desencadeando uma série de eventos que podem mudar o curso da história."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/5/87048.jpg",
+      "name": "Vinland Saga",
+      "category": "TV",
+      "genero": "Ação, Drama, Histórico",
+      "description": "Thorfinn, filho de um guerreiro viking, busca vingança contra o assassino de seu pai, enquanto se envolve em a magia é tudo. Enquanto Yuno possui talento natural, Asta compensa sua falta de magia com determinação e força física."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/9/47389.jpg",
+      "name": "Haikyuu!!",
+      "category": "TV",
+      "genero": "Esporte, Comédia, Drama",
+      "description": "Shoyo Hinata se junta ao time de vôlei da escola secundária Karasuno, determinado a superar sua baixa estatura e se tornar um jogador excepcional."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1817/97690.jpg",
+      "name": "Jujutsu Kaisen",
+      "category": "TV",
+      "genero": "Ação, Demônios, Sobrenatural",
+      "description": "Yuji Itadori se envolve em um mundo oculto de feitiçaria quando ingere um dedo amaldiçoado, tornando-se hospedeiro de uma criatura poderosa. Agora, ele luta contra maldições para proteger as pessoas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/20371.jpg",
+      "name": "Sword Art Online",
+      "category": "TV",
+      "genero": "Ação, Aventura, Fantasia",
+      "description": "Kirito e outros jogadores ficam presos em um jogo de realidade virtual, Sword Art Online. Para escapar, eles devem atravessar os níveis perigosos do jogo e enfrentar seus desafios mortais."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/12/78745.jpg",
+      "name": "Fairy Tail",
+      "category": "TV",
+      "genero": "Ação, Aventura, Comédia",
+      "description": "Lucy Heartfilia se junta à guilda de magos Fairy Tail e embarca em missões emocionantes com Natsu Dragneel e seus amigos, enfrentando perigos e descobrindo segredos sobre seu passado."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/87075.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc",
+      "category": "TV",
+      "genero": "Ação, Sobrenatural, Histórico",
+      "description": "Após os eventos do Trem Infinito, Tanjiro e seus companheiros se envolvem em uma nova missão na cidade do entretenimento, enfrentando demônios perigosos e mistérios intrigantes."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/8/19907.jpg",
+      "name": "Steins;Gate",
+      "category": "TV",
+      "genero": "Mistério, Sci-Fi, Thriller",
+      "description": "Rintarou Okabe descobre a habilidade de enviar mensagens para o passado e começa a experimentar viagens no tempo, desencadeando uma série de eventos que podem mudar o curso da história."
+    },
+
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1817/97690.jpg",
+      "name": "Jujutsu Kaisen",
+      "category": "TV",
+      "genero": "Ação, Demônios, Sobrenatural",
+      "description": "Yuji Itadori se envolve em um mundo oculto de feitiçaria quando ingere um dedo amaldiçoado, tornando-se hospedeiro de uma criatura poderosa. Agora, ele luta contra maldições para proteger as pessoas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/20371.jpg",
+      "name": "Sword Art Online",
+      "category": "TV",
+      "genero": "Ação, Aventura, Fantasia",
+      "description": "Kirito e outros jogadores ficam presos em um jogo de realidade virtual, Sword Art Online. Para escapar, eles devem atravessar os níveis perigosos do jogo e enfrentar seus desafios mortais."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/12/78745.jpg",
+      "name": "Fairy Tail",
+      "category": "TV",
+      "genero": "Ação, Aventura, Comédia",
+      "description": "Lucy Heartfilia se junta à guilda de magos Fairy Tail e embarca em missões emocionantes com Natsu Dragneel e seus amigos, enfrentando perigos e descobrindo segredos sobre seu passado."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/87075.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc",
+      "category": "TV",
+      "genero": "Ação, Sobrenatural, Histórico",
+      "description": "Após os eventos do Trem Infinito, Tanjiro e seus companheiros se envolvem em uma nova missão na cidade do entretenimento, enfrentando demônios perigosos e mistérios intrigantes."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/8/19907.jpg",
+      "name": "Steins;Gate",
+      "category": "TV",
+      "genero": "Mistério, Sci-Fi, Thriller",
+      "description": "Rintarou Okabe descobre a habilidade de enviar mensagens para o passado e começa a experimentar viagens no tempo, desencadeando uma série de eventos que podem mudar o curso da história."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/5/87048.jpg",
+      "name": "Vinland Saga",
+      "category": "TV",
+      "genero": "Ação, Drama, Histórico",
+      "description": "Thorfinn, filho de um guerreiro viking, busca vingança contra o assassino de seu pai, enquanto se envolve em istória épica dos Titãs e a luta pela sobrevivência da humanidade."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/9/47389.jpg",
+      "name": "Haikyuu!!",
+      "category": "TV",
+      "genero": "Esporte, Comédia, Drama",
+      "description": "Shoyo Hinata se junta ao time de vôlei da escola secundária Karasuno, determinado a superar sua baixa estatura e se tornar um jogador excepcional."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1817/97690.jpg",
+      "name": "Jujutsu Kaisen",
+      "category": "TV",
+      "genero": "Ação, Demônios, Sobrenatural",
+      "description": "Yuji Itadori se envolve em um mundo oculto de feitiçaria quando ingere um dedo amaldiçoado, tornando-se hospedeiro de uma criatura poderosa. Agora, ele luta contra maldições para proteger as pessoas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/20371.jpg",
+      "name": "Sword Art Online",
+      "category": "TV",
+      "genero": "Ação, Aventura, Fantasia",
+      "description": "Kirito e outros jogadores ficam presos em um jogo de realidade virtual, Sword Art Online. Para escapar, eles devem atravessar os níveis perigosos do jogo e enfrentar seus desafios mortais."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/12/78745.jpg",
+      "name": "Fairy Tail",
+      "category": "TV",
+      "genero": "Ação, Aventura, Comédia",
+      "description": "Lucy Heartfilia se junta à guilda de magos Fairy Tail e embarca em missões emocionantes com Natsu Dragneel e seus amigos, enfrentando perigos e descobrindo segredos sobre seu passado."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/87075.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc",
+      "category": "TV",
+      "genero": "Ação, Sobrenatural, Histórico",
+      "description": "Após os eventos do Trem Infinito, Tanjiro e seus companheiros se envolvem em uma nova missão na cidade do entretenimento, enfrentando demônios perigosos e mistérios intrigantes."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/8/19907.jpg",
+      "name": "Steins;Gate",
+      "category": "TV",
+      "genero": "Mistério, Sci-Fi, Thriller",
+      "description": "Rintarou Okabe descobre a habilidade de enviar mensagens para o passado e começa a experimentar viagens no tempo, desencadeando uma série de eventos que podem mudar o curso da história."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1817/97690.jpg",
+      "name": "Jujutsu Kaisen",
+      "category": "TV",
+      "genero": "Ação, Demônios, Sobrenatural",
+      "description": "Yuji Itadori se envolve em um mundo oculto de feitiçaria quando ingere um dedo amaldiçoado, tornando-se hospedeiro de uma criatura poderosa. Agora, ele luta contra maldições para proteger as pessoas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/20371.jpg",
+      "name": "Sword Art Online",
+      "category": "TV",
+      "genero": "Ação, Aventura, Fantasia",
+      "description": "Kirito e outros jogadores ficam presos em um jogo de realidade virtual, Sword Art Online. Para escapar, eles devem atravessar os níveis perigosos do jogo e enfrentar seus desafios mortais."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/12/78745.jpg",
+      "name": "Fairy Tail",
+      "category": "TV",
+      "genero": "Ação, Aventura, Comédia",
+      "description": "Lucy Heartfilia se junta à guilda de magos Fairy Tail e embarca em missões emocionantes com Natsu Dragneel e seus amigos, enfrentando perigos e descobrindo segredos sobre seu passado."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/87075.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc",
+      "category": "TV",
+      "genero": "Ação, Sobrenatural, Histórico",
+      "description": "Após os eventos do Trem Infinito, Tanjiro e seus companheiros se envolvem em uma nova missão na cidade do entretenimento, enfrentando demônios perigosos e mistérios intrigantes."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/8/19907.jpg",
+      "name": "Steins;Gate",
+      "category": "TV",
+      "genero": "Mistério, Sci-Fi, Thriller",
+      "description": "Rintarou Okabe descobre a habilidade de enviar mensagens para o passado e começa a experimentar viagens no tempo, desencadeando uma série de eventos que podem mudar o curso da história."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/5/87048.jpg",
+      "name": "Vinland Saga",
+      "category": "TV",
+      "genero": "Ação, Drama, Histórico",
+      "description": "Thorfinn, filho de um guerreiro viking, busca vingança contra o assassino de seu pai, enquanto se envolve em alquer inimigo com um único soco, mas sua busca por um desafio genuíno o deixa entediado."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/9/47389.jpg",
+      "name": "Haikyuu!!",
+      "category": "TV",
+      "genero": "Esporte, Comédia, Drama",
+      "description": "Shoyo Hinata se junta ao time de vôlei da escola secundária Karasuno, determinado a superar sua baixa estatura e se tornar um jogador excepcional."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1817/97690.jpg",
+      "name": "Jujutsu Kaisen",
+      "category": "TV",
+      "genero": "Ação, Demônios, Sobrenatural",
+      "description": "Yuji Itadori se envolve em um mundo oculto de feitiçaria quando ingere um dedo amaldiçoado, tornando-se hospedeiro de uma criatura poderosa. Agora, ele luta contra maldições para proteger as pessoas."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/20371.jpg",
+      "name": "Sword Art Online",
+      "category": "TV",
+      "genero": "Ação, Aventura, Fantasia",
+      "description": "Kirito e outros jogadores ficam presos em um jogo de realidade virtual, Sword Art Online. Para escapar, eles devem atravessar os níveis perigosos do jogo e enfrentar seus desafios mortais."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/12/78745.jpg",
+      "name": "Fairy Tail",
+      "category": "TV",
+      "genero": "Ação, Aventura, Comédia",
+      "description": "Lucy Heartfilia se junta à guilda de magos Fairy Tail e embarca em missões emocionantes com Natsu Dragneel e seus amigos, enfrentando perigos e descobrindo segredos sobre seu passado."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/7/87075.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc",
+      "category": "TV",
+      "genero": "Ação, Sobrenatural, Histórico",
+      "description": "Após os eventos do Trem Infinito, Tanjiro e seus companheiros se envolvem em uma nova missão na cidade do entretenimento, enfrentando demônios perigosos e mistérios intrigantes."
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/8/19907.jpg",
+      "name": "Steins;Gate",
+      "category": "TV",
+      "genero": "Mistério, Sci-Fi, Thriller",
+      "description": "Rintarou Okabe descobre a habilidade de enviar mensagens para o passado e começa a experimentar viagens no tempo, desencadeando uma série de eventos que podem mudar o curso da história."
+    }
+  ]
+}
