@@ -1,8 +1,12 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { PrismaService } from './database/prisma.service';
-import { RocketMembersRepository } from './repositories/rocket-members-repository';
-import { PrismaRocketMembersRepository } from './repositories/prisma/prisma-rocket-members-repository';
+import { UsersRepository } from './repositories/users-repository';
+import { PrismaUsersRepository } from './repositories/prisma/prisma-users-repository';
+import { PostVideoRepository } from './repositories/post-video-repository';
+import { PrismaPostVideoRepository } from './repositories/prisma/prisma-post-video-repository';
+import { AnimeRepository } from './repositories/anime-repository';
+import { PrismaAnimeRepository } from './repositories/prisma/prisma-anime-repository';
 // import { AppService } from './app.service';
 
 @Module({
@@ -14,10 +18,16 @@ import { PrismaRocketMembersRepository } from './repositories/prisma/prisma-rock
   // providers:[]
   providers:[PrismaService,
   {
-    provide: RocketMembersRepository,
-    //toda vez que alguem solicitar uma class do tipo 'rocket...'
-    useClass: PrismaRocketMembersRepository
-    //eu vou usar a class 'prismarocketmem...'
+    provide: UsersRepository,
+    useClass: PrismaUsersRepository
+  },
+  {
+    provide: PostVideoRepository,
+    useClass: PrismaPostVideoRepository
+  },
+  {
+    provide: AnimeRepository,
+    useClass: PrismaAnimeRepository
   }
   ]
   // qualquer coisa que não seja um controler 
