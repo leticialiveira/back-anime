@@ -8,9 +8,11 @@ import { PrismaPostVideoRepository } from './repositories/prisma/prisma-post-vid
 import { AnimeRepository } from './repositories/anime-repository';
 import { PrismaAnimeRepository } from './repositories/prisma/prisma-anime-repository';
 // import { AppService } from './app.service';
+import { AuthModule } from './auth/auth.module';
+import { UsersModule } from './users/users.module';
 
 @Module({
-  imports: [],
+  imports: [AuthModule, UsersModule],
   //importando os modules para depois eles trabalharem juntos.
   controllers: [AppController],
   //são arquivos que recebem chamadas http

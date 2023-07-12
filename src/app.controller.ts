@@ -14,7 +14,7 @@ import { CreatePostVideoBody } from './dtos/create-post-video-body';
 import { PostVideoRepository } from './repositories/post-video-repository';
 import { AnimeRepository } from './repositories/anime-repository';
 import { CreateAnimeBody } from './dtos/create-anime-body';
-import { EditAnimeBody } from './dtos/edit-anime-body';
+import { EditUserBody } from './dtos/edit-user-body';
 
 @Controller('app')
 export class AppController {
@@ -33,6 +33,7 @@ export class AppController {
   //   return anime;
   // }
 
+  //criar usuario
   @Post('user')
   async postUsers(@Body() body: CreateUsersBody) {
     const { user, email, phone, password } = body;
@@ -40,6 +41,29 @@ export class AppController {
     return { message: 'Criado com sucesso!' };
   }
 
+  //editar usuario
+  @Put('user')
+  async editUser(@Body() body: EditUserBody){
+    const { id, user, password, phone, email } = body
+    return await this.users.put(id, user, email, phone, password)
+
+  }
+
+  //deletar usuario
+  @Delete('user/:id')
+  async deleteUser(@Param('id') id: string) {
+    await this.users.delete(id)
+    return { message: 'Deletado com sucesso!' };
+  }
+
+  //pegar pelo id
+  @Get('user/:id')
+  async searchUser(@Param('id') id: string) {
+    return await this.users.findUnique(id);
+
+  }
+
+  //pegar todos os usuarios
   @Get('users')
   async Users() {
     return {
@@ -51,73 +75,7 @@ export class AppController {
     };
   }
 
-  @Delete('user/:id')
-  async deleteUser(@Param('id') id: string) {
-    const deleteVideo = this.prisma.postVideo.deleteMany({
-      where: {
-        authorId: id,
-      },
-    });
-
-    const deleteAnime = this.prisma.anime.deleteMany({
-      where: {
-        userId: id,
-      },
-    });
-
-    const deletUser = this.prisma.users.delete({
-      where: {
-        id: id,
-      },
-    });
-
-    await this.prisma.$transaction([deleteVideo, deleteAnime, deletUser]);
-
-    return { message: 'Deletado com sucesso!' };
-  }
-
-  @Get('user/:id')
-  async searchUser(@Param('id') id: string) {
-    const user = await this.prisma.users.findUnique({
-      where: {
-        id: id,
-      },
-      select: {
-        id: true,
-        user: true,
-        email: true,
-        phone: false,
-        password: false,
-        anime: {
-          select: {
-            id: false,
-            name: true,
-            img: true,
-            category: true,
-            genero: true,
-            description: true,
-          },
-        },
-        postVideo: true,
-        updateAt: true,
-        createdAt: true,
-      },
-    });
-
-    if (!user) return { message: 'Usuário não encontrado!' };
-    return user;
-  }
-
-  @Put('user')
-  async editUser(@Body() body: EditAnimeBody){
-    const data = body
-    const result = await this.prisma.users.update({
-      where:{
-        id: data.id
-      }
-    })
-  }
-
+  //criar comentario
   @Post('postVideo')
   async PostVideo(@Body() body: CreatePostVideoBody) {
     const { comment, authorId } = body;
@@ -125,6 +83,7 @@ export class AppController {
     return { message: 'Criado com sucesso!' };
   }
 
+  //criar anime
   @Post('anime')
   async Anime(@Body() body: CreateAnimeBody) {
     const { img, name, category, genero, description, userId } = body;
@@ -132,6 +91,7 @@ export class AppController {
     return { message: 'Criado com sucesso!' };
   }
 
+  //pegar todos os animes
   @Get('animes')
   async Animes() {
     return {
