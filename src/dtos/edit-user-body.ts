@@ -6,6 +6,6 @@ export class EditUserBody {
     user: string;
     email: string;
     @IsPhoneNumber("BR")
-    phone: bigint;
+    phone: string;
     password: string;
 }

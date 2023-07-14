@@ -5,7 +5,8 @@ import { ValidationPipe } from '@nestjs/common';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-
+  // quando da problema no cors
+  app.enableCors()
   app.useGlobalPipes(new ValidationPipe())
 //vai servir para validar as entradas (body), apartir da class 'CreateTeamMemberBody'
 

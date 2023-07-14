@@ -9,7 +9,7 @@ export class PrismaUsersRepository implements UsersRepository {
   async create(
     user: string,
     email: string,
-    phone: number,
+    phone: string,
     password: string,
   ): Promise<void> {
     await this.prisma.users.create({
@@ -27,7 +27,7 @@ export class PrismaUsersRepository implements UsersRepository {
     id: string,
     user: string,
     email: string,
-    phone: bigint,
+    phone: string,
     password: string,
   ): Promise<{ message: string }> {
     await this.prisma.users.update({

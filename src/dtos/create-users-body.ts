@@ -17,7 +17,7 @@ export class CreateUsersBody {
         message: 'esse campo é obrigatorio'
     })
     // @Length(9,13)
-    phone: number;
+    phone: string;
     @IsNotEmpty({
         message:'esse campo é obrigatorio'
     })

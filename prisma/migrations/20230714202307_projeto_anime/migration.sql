@@ -2,7 +2,7 @@
 CREATE TABLE "Users" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "email" TEXT NOT NULL,
-    "phone" BIGINT NOT NULL,
+    "phone" TEXT NOT NULL,
     "user" TEXT NOT NULL,
     "password" TEXT NOT NULL,
     "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,

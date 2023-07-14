@@ -10,7 +10,7 @@ datasource db {
 model Users {
   id        String      @id @unique
   email     String      @unique
-  phone     BigInt      @unique
+  phone     String      @unique
   user      String      @unique
   password  String
   postVideo PostVideo[]
